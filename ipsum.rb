@@ -14,15 +14,16 @@ module Nikky
     #end
     #result
   end
+  # This removes the quote bookmark information that comes naturally. Useful for bulk.
   def generate_no_index
     array = generate.split(' ')
     array.delete_at(-1)
     array.join(' ')
   end
 
-  def generate_paragraph(s=12)
+  def generate_paragraph(s=8)
     paragraph = ""
-    8.times do
+    s.times do
       paragraph << generate_no_index
       paragraph << " "
     end
@@ -32,7 +33,7 @@ module Nikky
 
   def generate_block(p=5)
     block = ""
-    5.times do
+    p.times do
         block << generate_paragraph
         i += 1
       end
