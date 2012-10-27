@@ -4,7 +4,7 @@
 
 module Nikky
   extend self
-  def generate(seed1=nil,seed2=nil)
+  def generate(seed_start=nil,seed_end=nil)
     #if seed1.nil? && seed2.nil?
     result = `./nikky #{rand(4294967295)}-#{rand(9999)}`
     #elsif seed1 <= 4294967295 && seed2 <= 9999
@@ -19,28 +19,23 @@ module Nikky
     array.delete_at(-1)
     array.join(' ')
   end
+
   def generate_paragraph(s=12)
     paragraph = ""
-    i = 0
-    while i < 8 do
-        paragraph << generate_no_index
-        paragraph << " "
+    8.times do
+      paragraph << generate_no_index
+      paragraph << " "
+    end
+    paragraph.rstrip
+    paragraph << "\n\n"
+  end
+
+  def generate_block(p=5)
+    block = ""
+    5.times do
+        block << generate_paragraph
         i += 1
       end
-      paragraph.rstrip
-      paragraph << "\n\n"
+      block.chomp
     end
-
-    def generate_block(p=5)
-      block = ""
-      i = 0
-      while i < p do
-          block << generate_paragraph
-          i += 1
-        end
-        block.chomp
-      end
-    end
-
-
-
+  end

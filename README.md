@@ -21,3 +21,6 @@ It makes 5 random paragraphs.
 * Features, such as more even generation lengths and ability to specify paragaphs/sentences.
 * Slick-o refresh.
 
+# Demonstration
+
+[http://nykida.net/nikky-ipsum](http://nykida.net/nikky-ipsum)
