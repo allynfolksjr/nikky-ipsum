@@ -35,7 +35,6 @@ module Nikky
     block = ""
     p.times do
         block << generate_paragraph
-        i += 1
       end
       block.chomp
     end
