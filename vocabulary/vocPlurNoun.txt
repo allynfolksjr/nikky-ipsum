@@ -53,7 +53,6 @@
 63 drugs
 2 dumbasses
 63 faces
-127 Fedoratards
 63 file archivers
 63 file managers
 63 firewalls
@@ -65,7 +64,6 @@
 2 four-page manuals
 2 fourth-grade research papers
 63 free formats
-2 furfags
 63 geeks
 63 GPUs
 64 grammar capabilities
@@ -78,7 +76,6 @@
 63 hurricanes
 63 jokes
 63 judges
-127 KDEtards
 63 keyboards
 63 languages
 63 laptops
@@ -96,7 +93,6 @@
 63 lubes
 127 lusers
 127 Macs
-127 Mactards
 2 makefiles
 63 Maseratis
 63 memes
@@ -144,8 +140,6 @@
 63 quadratic solvers
 63 questions
 63 queues
-2 retarded 3-year-olds with rabies
-63 retards
 63 reviews
 2 rickrolls
 63 robots
@@ -182,12 +176,6 @@
 63 stories
 63 studies
 63 tablets
-127 tard conventions
-127 tardfaces
-127 tardmongers
-127 tardmuffins
-127 tard parades
-127 tards
 63 taxes
 63 telephone companies
 63 thieves

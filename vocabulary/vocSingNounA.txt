@@ -58,7 +58,6 @@
 63 drug
 2 dumbass
 127 face
-127 Fedoratard
 63 file archiver
 63 file manager
 63 firewall
@@ -70,7 +69,6 @@
 2 four-page manual
 2 fourth-grade research paper
 63 free format
-2 furfag
 63 geek
 63 GPU
 63 grammar capability
@@ -83,7 +81,6 @@
 63 hurricane
 63 joke
 63 judge
-127 KDEtard
 63 keyboard
 63 language
 63 laptop
@@ -101,7 +98,6 @@
 63 lube
 63 luser
 127 Mac
-127 Mactard
 2 makefile
 2 Maserati
 2 meme
@@ -150,8 +146,6 @@
 63 quadratic solver
 63 question
 63 queue
-63 retard
-2 retarded 3-year-old with rabies
 63 review
 2 rickroll
 63 robot
@@ -189,12 +183,6 @@
 63 story
 63 study
 63 tablet
-127 tard
-127 tard convention
-127 tardface
-127 tardmonger
-127 tardmuffin
-127 tard parade
 63 tax
 63 telephone company
 63 thief
