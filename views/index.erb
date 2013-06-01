@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nikky Ipsum</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300|Roboto:300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="container">
+<div class="row-fluid">
+<div class="span4">
+<h1>Nikky Ipsum</h1>
+</div>
+<div class="span8">
+<a class="btn btn-info new_one">Hit me with a new one <input type="text" name="paragraphs" class="new_one_para" size="2" value="5"/></a>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span12">
+<div class="ipsum">
+<%=
+results = ""
+5.times do
+  results << "<p>"
+  results << Nikky.generate_paragraph
+  results << "</p>"
+end
+results
+%></div></div>
+</div>
+<div class="row-fluid">
+  <div class="span12">
+    <hr>
+    <footer><p class="footer">Text generation from <a href="http://www.ticalc.org/archives/files/fileinfo/450/45051.html">The Nikky Simulator</a> by the amazing <a href="http://www.ticalc.org/about/staff/travise.html">Travis Evans</a></p></footer>
+
+    <script type=\"text/javascript\">var analyticsFileTypes=[''];var analyticsEventTracking='enabled';</script>
+    <script type=\"text/javascript\">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-12818678-2']);_gaq.push(['_addDevId','i9k95']);_gaq.push(['_trackPageview']);_gaq.push(['_trackPageLoadTime']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+  </div>
+</div>
+</div>
+</script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/ipsum.js"></script>
+</body>
+</html>

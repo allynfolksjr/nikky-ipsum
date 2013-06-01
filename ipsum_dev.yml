@@ -1,0 +1,6 @@
+---
+  environment: development
+  port: 5288
+  tag: nikky_ipsum
+  timeout: 10
+  rackup: config.ru

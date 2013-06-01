@@ -8,6 +8,16 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+a.new_one {
+  margin: 16px;
+}
+
+input.new_one_para {
+  padding: 0px !important;
+  margin-bottom: 0px !important;
+  width: 18px;
+}
+
 article,
 aside,
 details,
@@ -159,7 +169,7 @@ textarea {
 
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333333;
@@ -638,6 +648,11 @@ h6 {
   line-height: 1;
   color: inherit;
   text-rendering: optimizelegibility;
+  font-family: "Roboto Slab", serif;
+}
+
+p.footer {
+  font-family: "Roboto", sans-serif;
 }
 
 h1 small,

@@ -1,0 +1,10 @@
+---
+  environment: production
+  port: 5288
+  servers: 4
+  tag: nikky_ipsum
+  timeout: 10
+  onebyone: true
+  daemonize: true
+  rackup: config.ru
+
