@@ -5,6 +5,8 @@ nikky-ipsum
 
 Travis Evans made the [Nikky Simulator](http://www.ticalc.org/archives/files/fileinfo/450/45051.html) and provided a handy CLI application. This contains the source directory along with a compiled "nikky" binary, and the Sinatra app.
 
+I'm using a patched version of the nikky binary that removes some metadata from the request result.
+
 This project is written in Ruby with Sinatra/Thin providing application support.
 
 # Features
